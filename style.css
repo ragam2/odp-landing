@@ -1,16 +1,16 @@
+/*
 * {
     outline: 2px solid red;
-  }  
+  }
+
+  */
 
 .body {
     font-family: 'Roboto';
     background-color: white;
 }
 
-.header {
-    background-color: #1f2937;
-}
-
+.header,
 .hero {
     background-color: #1f2937;
 }
@@ -43,6 +43,8 @@
     background-color: #3882f6;
 }
 
+/* info */
+
 .info {
     display: flex;
     flex: 1;
@@ -50,10 +52,28 @@
     flex-direction: column;
 }
 
-.info p {
+.info .header {
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    background-color: white;
 }
 
-.info .bubble img {
+.info .body {
+    display: flex;
+    flex-direction: row;
+}
+
+.info .body .bubble {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info .body .bubble img {
+    border: 2px solid #3882f6;
+    border-radius: 25px;
     height: auto;
     width: 150px;
 }
