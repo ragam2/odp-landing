@@ -1,3 +1,7 @@
+* {
+    outline: 2px solid red;
+  }  
+
 .body {
     font-family: 'Roboto';
     background-color: white;
