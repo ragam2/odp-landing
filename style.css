@@ -11,15 +11,20 @@
     background-color: #1f2937;
 }
 
-.hero.h1 {
+.hero h1 {
     font-size: 48px;
     font-weight: 900px;
     color: #f9faf8;
 }
 
-.hero.p {
+.hero p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero img {
+    height: auto;
+    width: 150px;
 }
 
 .quote {
@@ -38,7 +43,11 @@
     display: flex;
 }
 
-.infobubble {
+.info p {
     display: flex;
-    
+}
+
+.infobubble img {
+    height: auto;
+    width: 150px;
 }
