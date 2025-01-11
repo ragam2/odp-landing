@@ -10,9 +10,26 @@
     background-color: white;
 }
 
+/* header */
+
 .header,
 .hero {
     background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    outline: 2px solid red;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+.header .links {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero h1 {
