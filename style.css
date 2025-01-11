@@ -45,13 +45,15 @@
 
 .info {
     display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .info p {
-    display: flex;
 }
 
-.infobubble img {
+.info .bubble img {
     height: auto;
     width: 150px;
 }
