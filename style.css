@@ -1,7 +1,44 @@
 .body {
     font-family: 'Roboto';
+    background-color: white;
 }
 
 .header {
+    background-color: #1f2937;
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+.hero.h1 {
+    font-size: 48px;
+    font-weight: 900px;
+    color: #f9faf8;
+}
+
+.hero.p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.button {
+    background-color: #3882f6;
+}
+
+.info {
+    display: flex;
+}
+
+.infobubble {
+    display: flex;
     
 }
