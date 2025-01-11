@@ -2,14 +2,13 @@
 * {
     outline: 2px solid red;
   }
+*/
 
-  */
 
 .body {
-    display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     background-color: white;
 }
 
@@ -18,6 +17,7 @@
 .header,
 .hero {
     background-color: #1f2937;
+    margin: 0 auto;
 }
 
 .header {
@@ -39,7 +39,7 @@
     color: #e5e7eb;
     justify-content: space-around;
     align-items: center;
-    gap: 8px
+    gap: 8px;
 }
 
 .header .links .link {
@@ -47,6 +47,10 @@
 }
 
 /* hero */
+
+.hero {
+    display: flex;
+}
 
 .hero h1 {
     font-size: 48px;
