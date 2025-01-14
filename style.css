@@ -4,7 +4,6 @@
   }
 */
 
-
 .body {
     font-family: 'Roboto', serif;
     display: flex;
@@ -52,8 +51,9 @@
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .hero .text {
@@ -62,15 +62,19 @@
 }
 
 .hero .text .header {
-
+    padding: 10px;
+    margin: 10px;
+    gap: 0px;
 }
 
 .hero .text .subtext {
-
+    padding: 20px;
+    margin: 20px;
+    gap: 0px;
 }
 
 .hero .text .button {
-
+    gap: 0px;
 }
 
 .hero h1 {
@@ -90,7 +94,7 @@
 
 .hero img {
     height: auto;
-    width: 150px;
+    width: 250px;
 }
 
 .hero button {
